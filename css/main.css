@@ -10,16 +10,19 @@ body
 footer
 {
 	color: #cccccc;
-	background-color: #2E2E2E;
+	background-color: #333333;
+	bottom: 0;
+	height: 3em;
 	margin: 0 auto;
-	padding: 0;
+	margin-top: 110px;
+	padding: 0.2em;
 	position: relative;
 	width: 75%;
 }
 header
 {
 	background-size: 100%;
-	background-color: #2E2E2E;
+	background-color: #333333;
 	color: #cccccc;
 	margin: 1em auto;
 	padding: 0.5em;
@@ -68,8 +71,11 @@ nav li a:hover
 {
 	color: #6E6E6E;
 	background-color: #cccccc;
-	margin: 0 auto;
-	padding: 0;
+	border-style: dotted;
+	height: 100%;
+	margin: 0 auto 2em;
+	margin-bottom: 50px;
+	padding: 0.2em;
 	position: relative;
 	width: 75%;
 }
