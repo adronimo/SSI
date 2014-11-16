@@ -10,7 +10,7 @@ body
 footer
 {
 	color: #cccccc;
-	background-color: #6E6E6E;
+	background-color: #2E2E2E;
 	margin: 0 auto;
 	padding: 0;
 	position: relative;
@@ -18,26 +18,28 @@ footer
 }
 header
 {
-	background: url("../img/logo.jpg");
 	background-size: 100%;
-	background-color: #6E6E6E;
+	background-color: #2E2E2E;
 	color: #cccccc;
 	margin: 1em auto;
 	padding: 0.5em;
 	position: relative;
-	text-align: left;
 	width: 75%;
 }
 header h1
 {
 	margin: 0;
-	text-shadow: #81BEF7 5px 5px 10px;
+	text-shadow: #81BEF7 2px 2px 50px;
 }
 header h2
 {
 	margin: 0em;
 	font-weight: normal;
-	text-shadow: #81BEF7 5px 5px 10px;
+	text-shadow: #81BEF7 2px 2px 50px;
+}
+nav ul
+{
+	list-style: none;
 }
 #principal
 {
