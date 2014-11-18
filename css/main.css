@@ -9,8 +9,8 @@ body
 }
 footer
 {
-	color: #cccccc;
-	background-color: #333333;
+	background-color: #0080FF;
+	color: #E6E6E6;
 	bottom: 0;
 	height: 3em;
 	margin: 0 auto;
@@ -21,9 +21,9 @@ footer
 }
 header
 {
+	background-color: #0080FF;
 	background-size: 100%;
-	background-color: #333333;
-	color: #cccccc;
+	color: #E6E6E6;
 	margin: 1em auto;
 	padding: 0.5em;
 	position: relative;
@@ -40,12 +40,41 @@ header h2
 	font-weight: normal;
 	text-shadow: #81BEF7 2px 2px 50px;
 }
-
+input[type="text"]
+{
+	display: block;
+	height: 30px;
+	margin: 0 auto;
+	width: 80%;
+}
+input[type="submit"], input[type="reset"]
+{
+	background-color: #0080FF;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-family: Arial, Sans-serif;
+    font-size: 1.2em;
+    height:35px;
+    margin: 0 auto;
+    text-align: center;
+    width:125px;
+}
+label
+{
+	color: #444;
+    display: block;
+    font-family: Arial, Sans-Serif;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
 nav
 {
 	font-size: 1.7em;
-	margin: ;
+	margin:0 auto;
 	position: relative;
+	width: 75%;
 }
 nav ul 
 {
@@ -81,10 +110,29 @@ nav li a:hover
 }
 #box-add
 {
-	background-color: #BDBDBD;
+	background-color: #ccc;
+	border-radius: 0.2em;
 	display: block;
-	height: 20em;
-	padding: 2em 0 5em 0;
+	padding: 25px 0;
 	margin: 0 auto;
-	width:50%;
+	margin-top: 100px;
+	width:370px;
+}
+.buttons
+{
+	display: block;
+	margin: 0 auto;	
+	margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+}
+.separador
+{
+	background-color: #1C1C1C;
+    display: block;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 80%;
 }
