@@ -79,3 +79,12 @@ nav li a:hover
 	position: relative;
 	width: 75%;
 }
+#box-add
+{
+	background-color: #BDBDBD;
+	display: block;
+	height: 20em;
+	padding: 2em 0 5em 0;
+	margin: 0 auto;
+	width:50%;
+}
