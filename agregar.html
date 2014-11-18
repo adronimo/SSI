@@ -12,12 +12,19 @@
 </head>
 <body>
 	<form id="box-add">
+		<h3>Ingresa un nuevo Término</h3>
+		<div class="separador"></div>
+		<br />
 		<label for="termino">Término</label>
-		<input type="text" id="termino" name="word" placeholder="Término" required />
+		<input type="text" maxlength="10" id="termino" name="word" placeholder="Escriba un término..." required />
+		<br />
 		<label for="significado">Definición</label>
-		<input type="text" id="significado" name="sign" placeholder="Significado" required />
-		<input type="submit" name="guardar" id="save" value="Agregar" />
-		<input type="reset" name="guardar" id="save" value="Limpiar" />
+		<input type="text" maxlength="24" id="significado" name="sign" placeholder="Escriba su signíficado..." required />
+		<br />
+		<div class="buttons">
+			<input type="submit" name="guardar" id="save" value="Agregar" />
+			<input type="reset" name="limpiar" id="reset" value="Limpiar" />
+		</div>
 	</form>	
 </body>
 </html>
