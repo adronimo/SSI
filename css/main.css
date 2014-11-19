@@ -91,11 +91,12 @@ nav li
 }
 nav li a
 {
+	color: #1C1C1C;
 	text-decoration: none;
 }
 nav li a:hover
 {
-	color: #B40404;
+	color: #FF4000;
 	font-size: 1em;
 }
 #box-add
@@ -118,12 +119,18 @@ nav li a:hover
 	margin-bottom: 50px;
 	padding: 0.2em;
 	position: relative;
+	text-align: left;
 	width: 75%;
 }
 #text-search
 {
 	display: inline-block;
 	height: 29px;
+}
+#text-termino
+{
+	color: #1C1C1C;
+	font-size: 1.2em;
 }
 .btn-main
 {
