@@ -71,10 +71,11 @@ label
 }
 nav
 {
-	font-size: 1.7em;
-	margin:0 auto;
+	font-size: 1.5em;
+	margin: 0 auto;
+	padding: 0.5em;
 	position: relative;
-	width: 75%;
+	width: 70%;
 }
 nav ul 
 {
@@ -95,6 +96,7 @@ nav li a
 nav li a:hover
 {
 	color: #B40404;
+	font-size: 1em;
 }
 #box-add
 {
@@ -117,6 +119,24 @@ nav li a:hover
 	padding: 0.2em;
 	position: relative;
 	width: 75%;
+}
+#text-search
+{
+	display: inline-block;
+	height: 29px;
+}
+.btn-main
+{
+	background-color: #FA8258;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-family: Arial, Sans-serif;
+    font-size: 1.2em;
+    height:35px;
+    margin: 0 auto;
+    text-align: center;
+    width:125px;	
 }
 .buttons
 {
